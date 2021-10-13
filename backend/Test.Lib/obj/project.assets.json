@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koten\\source\\repos\\dakilgvait\\tbc_test\\backend\\Test.Lib\\Test.Lib.csproj",
+      "projectUniqueName": "C:\\Content\\git\\tbc_test\\backend\\Test.Lib\\Test.Lib.csproj",
       "projectName": "Test.Lib",
-      "projectPath": "C:\\Users\\koten\\source\\repos\\dakilgvait\\tbc_test\\backend\\Test.Lib\\Test.Lib.csproj",
+      "projectPath": "C:\\Content\\git\\tbc_test\\backend\\Test.Lib\\Test.Lib.csproj",
       "packagesPath": "C:\\Users\\koten\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koten\\source\\repos\\dakilgvait\\tbc_test\\backend\\Test.Lib\\obj\\",
+      "outputPath": "C:\\Content\\git\\tbc_test\\backend\\Test.Lib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koten\\AppData\\Roaming\\NuGet\\NuGet.Config",
