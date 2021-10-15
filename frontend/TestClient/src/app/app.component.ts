@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 import { TestService } from './services/test-service';
 
 @Component({
@@ -6,20 +7,23 @@ import { TestService } from './services/test-service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'TestClient';
-  data: any;
+  data!: Observable<any>;
 
-  constructor(private testService: TestService) { 
-    this.getData();
+  constructor(private testService: TestService) {
+  }
+
+
+  ngOnInit(): void {
+    this.data = this.testService.getTest();
+
   }
 
   getData(): void {
-    this.testService.getTest().subscribe((res) => {
-      console.log(res);
-      this.data = res;
+   
+      
 
-    })
 
   }
 }

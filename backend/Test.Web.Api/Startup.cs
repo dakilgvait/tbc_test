@@ -58,7 +58,7 @@ namespace Test.Web.Api
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=testaction}/{id?}");
+                    pattern: "{controller=Home}/{action=TestAction}");
             });
         }
     }

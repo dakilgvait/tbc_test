@@ -9,7 +9,7 @@
     "test": "ng test",
     "dev:ssr": "ng run TestClient:serve-ssr",
     "serve:ssr": "node dist/TestClient/server/main.js",
-    "build:ssr": "ng build && ng run TestClient:server",
+    "build:ssr": "ng build --prod && ng run TestClient:server:production",
     "prerender": "ng run TestClient:prerender"
   },
   "private": true,
